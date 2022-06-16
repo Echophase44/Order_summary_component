@@ -26,3 +26,15 @@ body{
 p {
   text-align: center;
 }
+
+.purchase{
+  display:grid;
+  
+  background-color: hsl(225, 100%, 98%);
+}
+
+.purchaseInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
