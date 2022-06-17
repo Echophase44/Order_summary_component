@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 body{
   background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay{
@@ -11,17 +16,20 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: solid black 3px;
+  background-color: hsl(225, 100%, 98%);
   width: 35%;
-  border-radius: 6%;
+  border-radius: 8px;
   position: absolute;
-  top: 10%;
-  left: 35%;
-  padding: 25px;
+  top: 15%;
+  padding: 0px, 20px, 25px 20px;
+  width: 350px;
 }
 
 .hero{
-  border-radius: 5% 5% 0% 0%;
+  border-radius: 8px 8px 0% 0%;
+  max-width: 100%;
+  height: auto;
+  
 }
 
 .responsive{
@@ -31,21 +39,58 @@ body{
 
 p {
   text-align: center;
+  padding: 15px;
 }
 
 .displayColumn{
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 
 .purchase{
-  border: solid black 3px;
-  display:flex;
-  background-color: hsl(225, 100%, 98%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(228, 100%, 96%);
+  width: 275px;
+  height: 60px;
+  padding: 7px 3px;
+  margin-bottom: 20px;
+}
+
+.musicIcon{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pushLeft{
+  margin-left: -80px;
 }
 
 .purchaseInfo{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.changeButton{
+  padding-right: 10px
+}
+
+.paymentButton{
+  background-color: hsl(245, 75%, 52%);
+  color:hsl(228, 100%, 96%);
+  border: solid hsl(223, 47%, 23%) 1px;
+}
+
+.cancelButton{
+  margin: 6px 0px;
+}
+
+.cancelButton, .paymentButton{
+  width: 275px;
+  text-align: center;
+  padding: 8px 0px;
+  border-radius: 5px;
 }
