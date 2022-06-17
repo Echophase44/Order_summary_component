@@ -1,9 +1,11 @@
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
+  background-color: hsl(225, 100%, 94%);
 }
+
+.overlay{
+  position: relative;
+}
+
 
 #cardContainer {
   display: flex;
@@ -11,11 +13,15 @@ body{
   align-items: center;
   border: solid black 3px;
   width: 35%;
-  border-radius: 15px;
+  border-radius: 6%;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  padding: 25px;
 }
 
 .hero{
-  border-radius: 50%;
+  border-radius: 5% 5% 0% 0%;
 }
 
 .responsive{
@@ -27,9 +33,14 @@ p {
   text-align: center;
 }
 
+.displayColumn{
+  display: flex;
+  flex-direction: column;
+}
+
 .purchase{
-  display:grid;
-  
+  border: solid black 3px;
+  display:flex;
   background-color: hsl(225, 100%, 98%);
 }
 
