@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/final_component.PNG" width="600"/>
+</p>
+
 # Order_summary_component
 
 While this was a coding challenge, I treated this as a client project. The client was building out their store and needed a new modern payment component.
